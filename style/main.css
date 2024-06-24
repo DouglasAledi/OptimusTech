@@ -1,0 +1,214 @@
+@import url(style.css);
+
+.main-sobre-nos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-sobre-nos__topico{
+  color: var(--cor-vermelha-escuro);
+
+  padding: 6em 0 1.5em 0;
+  font-weight: 600;
+}
+
+.main-sobre-nos__titulo{
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--cor-preta);
+}
+
+.main-sobre-nos__texto{
+  color: var(--cor-cinza);
+
+  padding: 1.5em 0 6em 0;
+  text-align: center;
+  width: 40em;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.metricas{
+  display: flex;
+  padding: 0 5em 6em 5em; 
+}
+
+.metricas-projetos-concluidos{
+  padding-left: 4em;
+}
+
+.metricas-projetos-concluidos, .metricas-colaboradores, .metricas-downloads, .metricas-reviews{
+  padding-right: 2em;
+  width: 280px;
+}
+
+.metricas-titulo{
+  color: var(--cor-vermelha-escuro);
+  font-size: 60px;
+  font-weight: 600;
+  padding-bottom: 12px;
+}
+
+.metricas-subtitulo{
+  color: var(--cor-preta);
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}
+
+.metricas-texto{
+  color: var(--cor-cinza);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.talento-texto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.procura-talentos{
+  padding: 6em 5em 4em 5em;
+}
+
+.talentos-vagas-abertas{
+  color: var(--cor-vermelha-escuro);
+  background: var(--cor-vermelha-fundo);
+  opacity: 5;
+  border-radius: 16px;
+  padding: 4px 12px 4px 12px;
+}
+
+.talentos-titulo{
+  padding: 1em 0 1.25em 0;
+  font-weight: 600;
+  font-size: 36px;
+  color: var(--cor-preta);
+}
+
+.talentos-subtitulo{
+  padding-bottom: 4em;
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--cor-cinza);
+}
+
+.talentos-img{
+  width: 1216px;
+  display: block;
+  margin: 0 auto;
+}
+
+.vagas-abertas{
+  padding: 4em 5em;
+}
+
+
+.vagas-abertas-design, .vagas-abertas-desenvolvimento-software{
+  padding: 0 16em;
+}
+
+.vagas-abertas-tipo{
+  padding-bottom: 2em;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--cor-preta);
+}
+
+
+.vagas-post{
+  padding-bottom: 1.5em;
+}
+
+.conteudo-vagas-post-design, .conteudo-vagas-post-ux{
+  border-radius: 16px;
+  border: 1px solid var(--cor-cinza-borda);
+  padding: 1.5em 1.5em 1.75em 1.5em;
+}
+
+.vagas-post-titulo{
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--cor-preta);
+}
+
+.vagas-post-descricao{
+  padding-top: 2em;
+  display: flex;
+}
+
+.vagas-periodo, .vagas-salario{
+  color: var(--cor-cinza);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.vagas-salario{
+  padding-left: 1.5em;
+}
+
+.colaboradores-julia{
+  padding: 0 5em 6em 5em;
+}
+
+.colaboradores{
+  opacity: 3;
+  background: var(--cor-vermelha-fundo-colaboradores);
+}
+
+.colaboradores-depoimento{
+  padding: 0 2em;
+  border-radius: 16px;
+}
+
+.colaboradores-comentario{
+  padding: 4em 4em 2em 4em;
+}
+
+.colaboradores-comentario-titulo{
+  color: var(--cor-vermelha-escuro);
+  font-weight: 600;
+  font-size: 14px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.colaboradores-comentario-texto{
+  padding: 1em 0 2em 0;
+
+  display: flex;
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 36px;
+  color: var(--cor-preta);
+}
+
+.colaboradores-comentario-informacao{
+  padding: 2em 4em 4em 4em;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.colaboradores-img{
+  max-width: 3.5em;
+  max-height: 3.5em;
+}
+
+.colaboradora-nome{
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--cor-preta);
+  padding: 1em 0 0.25em 0;
+}
+
+.colaboradora-cargo{
+  font-size: 14px;
+  color: var(--cor-cinza);
+}

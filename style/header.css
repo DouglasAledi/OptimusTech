@@ -1,0 +1,39 @@
+@import url(style.css);
+
+.header-navbar{
+  display: flex;
+  justify-content: space-around;
+
+  padding: 1.7em 0;
+}
+
+.header-navbar__content a, .header-navbar__action a{
+  text-decoration: none;
+
+  font-weight: 500;
+}
+
+.header-navbar__content{
+  padding-right: 23.75em;
+}
+
+.header-navbar-content__links{
+  padding: 2em;
+
+  color: var(--cor-cinza);
+}
+
+.header-navbar-action__links{
+  padding: 0 0.7em;
+}
+
+.link-entrar{
+  color: var(--cor-cinza);
+}
+
+.link-cadastrar{
+  color: var(--cor-branca);
+  background: var(--cor-vermelha-escuro);
+  padding: 0.6em 1.12em;
+  border-radius: 8px;
+}
